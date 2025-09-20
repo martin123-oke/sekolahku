@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Pertamaku di Sekolah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .story-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .story-title {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .story-title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #ffa366);
+            border-radius: 2px;
+        }
+
+        .story-content {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        .scene-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .scene-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .scene-text {
+            flex: 1;
+        }
+
+        .decorative-icon {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            margin-right: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            color: white;
+        }
+
+        .highlight {
+            background: linear-gradient(transparent 60%, rgba(255, 107, 107, 0.2) 40%);
+            padding: 0 3px;
+        }
+
+        @media (max-width: 768px) {
+            .story-title {
+                font-size: 2em;
+            }
+            
+            .story-content {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="story-card">
+            <h1 class="story-title">Hari Pertamaku di Sekolah</h1>
+            
+            <div class="story-content">
+                <div class="scene-item">
+                    <span class="scene-number">1</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">☀️</span>Pagi ini, matahari bersinar cerah.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">2</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">👩</span>Ibu membangunkanku dengan senyum.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">3</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">🛁</span>Aku segera mandi dan memakai seragam baru.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">4</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">👨</span>Ayah mengantarku ke sekolah.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">5</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">🏫</span>Di gerbang, Bu Guru menyambutku.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">6</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">👧👦</span>Aku melihat banyak teman baru.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">7</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">📋</span>Di kelas, aku duduk di bangku dekat jendela.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">8</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">👩‍🏫</span>Bu Guru memperkenalkan diri.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">9</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">🎵</span>Kami bernyanyi bersama.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">10</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">⏰</span>Saat istirahat, aku bermain di taman sekolah.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">11</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">👭</span>Aku berkenalan dengan Rina.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">12</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">🔔</span>Bel masuk berbunyi.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">13</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">✍️</span>Kami belajar menulis huruf A dan B.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">14</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">✨</span>Aku senang karena bisa menulis rapi.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">15</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">😊</span>Hari pertamaku di sekolah terasa menyenangkan.
+                    </div>
+                </div>
+                
+                <div class="scene-item">
+                    <span class="scene-number">16</span>
+                    <div class="scene-text">
+                        <span class="decorative-icon">🌙</span>Aku tak sabar menunggu hari esok.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Cerita tentang hari pertama sekolah yang penuh keceriaan dan kenangan indah.</p>
+        </div>
+    </div>
+</body>
+</html>
